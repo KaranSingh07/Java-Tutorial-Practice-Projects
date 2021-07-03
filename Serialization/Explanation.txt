@@ -1,0 +1,43 @@
+--- simpleobjects ---
+Serialization is the process of making an binary form (binary data) representation of objects.
+Deserialization is vice-versa of serialization.
+We can serialize to files means store that data to file.
+Taking them back from file is deserialization.
+
+For ex. if you are writing a software like and IDE, then the open and save functionalities can be implemented
+by using serialization and deserialization. Save means serialization to file, and when opening files just
+deserialize the objects and display.
+--------------------------------
+
+--- arrayofobjects ---
+An array of objects can also be serialized to a file as an array is just like any other object.
+There is only one condition here that is the class of which we are constructing an array should be serializable.
+---------------------------------
+
+--- arraylist ---
+We can also serialize arraylist of objects just like any other.
+
+Writing...
+ArrayList<Person> personList = new ArrayList<>();
+<< Code to add data >>
+os.writeObject(personList)
+
+Reading...
+ArrayList<Person> personList = (ArrayList<Person>)os.readObject()
+<< Iterate using loop >>
+
+!! Be careful with serializing arraylists:
+When we compile our program, the type of any parameterized class (the name of object that the class hold <...>) is
+lost and it is called type erasing. So there is a possibility of casting wrong type of object to wrong type of
+arraylist.
+----------------------------------
+
+--- About java main methods ---
+In a java program you we define more than one main method and at the time of running the program we can select
+which one to use as the entry point of the program. This is not uncommon in java software's that have several main
+methods can be used as, for example, one for the production environment and one for testing environment.
+----------------------------------
+
+--- Suggestion ---
+At the time of writing to file we can first write how many objects we're writing and at the time of reading them
+we first read the number so that the right number of objects will be read.

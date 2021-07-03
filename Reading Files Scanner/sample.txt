@@ -1,0 +1,5 @@
+Hello
+This is sample text file
+Made for testing of Scanner Class
+This is line 4
+Bye

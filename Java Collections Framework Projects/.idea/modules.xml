@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/HashMaps/HashMaps.iml" filepath="$PROJECT_DIR$/HashMaps/HashMaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java Collections Framework Projects.iml" filepath="$PROJECT_DIR$/.idea/Java Collections Framework Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortedMaps/SortedMaps.iml" filepath="$PROJECT_DIR$/SortedMaps/SortedMaps.iml" />
     </modules>
   </component>
 </project>

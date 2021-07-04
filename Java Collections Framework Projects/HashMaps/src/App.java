@@ -3,7 +3,7 @@ import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
-        HashMap<String, Integer> fruit_prices = new HashMap<>();                    // Fruit name - Price
+        Map<String, Integer> fruit_prices = new HashMap<>();                        // Fruit name - Price
 
         fruit_prices.put("Apple", 80);
         fruit_prices.put("Mango", 50);
@@ -28,11 +28,16 @@ public class App {
 }
 
 /*
+ * - Map is an interface which defines a key-value type data structure. HashMap and SortedMaps implements it.
  * - HashMap is a key value pair type data structure similar to dictionaries in python.
  * We can have any object as keys and values, but one thing to watch here is that if we want to use our custom
  * objects as keys, then they must implement hashCode() and .equals() methods.
  *
  * - HashMaps are not ordered (or sorted), so the order is completely random.
+ * But SortedMaps(interface) and LinkedHashMaps are sorted if you want some kind of order in the data.
+ *
+ * - We can also create object of HashMap objects directly. Means this...
+ *      HashMap<String, Integer> fruit_prices = new HashMap<>();
  *
  * #1.
  *   Directly printing the HashMaps will result exactly same as python's dictionaries.

@@ -1,0 +1,46 @@
+Suppose you have a list (either ArrayList or LinkedList) object and contains some Integers.
+If you want to sort them you have sort() method from Collections interface, so it goes like that...
+    Collections.sort(list)
+And this sorts the list in increasing order. Same goes with Strings and they're sorted with alphabetical order.
+---------
+In second scenario suppose you have a Laptop class which have brand, ram and price fields.
+You put them in a list. Now you want to sort them. What will you do?
+1.) First way - Using Comparable Interface:
+What you have to do is make your class implement the Comparable<T obj> interface which is a parameterized interface,
+you have to specify from which type of object you want to comparer (in our case Laptop itself).
+It have only one method compareTo() that takes the other object of the class we specified above.
+Now the implementation of this method is pretty simple, you just have to return 3 integers based on three cases...
+public int compareTo(Laptop other) {
+    // this._ > other._: return 1
+    // this._ < other._: return -1
+    // this._ == other._: return 0
+        _: This is just the field on which you want to sort the laptop.
+        It can be price, ram or brand (brand again can have two cases: by length or alphabetical)
+        So you have to return these 3 values based on comparisons. For example, we sort based on ram
+    if (this.ram > other.ram) return 1;
+    else if (this ram < other.ram) return -1;
+    else return 0;
+}
+
+Now you can call the Collections.sort() method, and will not complain anything.
+-------
+2.) Second way - Using Comparator Interface:
+Suppose the Laptop class is provided to you by some other programmer or library so the code is not available to you
+and you can't change it. Now you want to sort. What will you do?
+Pretty simple again in the sort() method itself.
+You have to provide a Comparator object in the second parameter of sort(). So first let's create one...
+
+Comparator com = new Comparator<Laptop>(){
+    --- Exactly same body as the body of compareTo() ---
+}
+
+Collections.sort(list, com);
+And you're done :)
+
+You can also provide the com even if you have the compareTo() design, just in case if you want to follow another
+sorting approach. Just create a comparator for that approach (suppose for price) and pass it to sort().
+
+-----
+Note: We first told that String and Integer lists are automatically sorted by sort() and we don't have to do
+anything else. Actually behind the scenes the Integer and String (Double also) implements the Comparable interface
+and implements the compareTo() method. That's why the same thing is happening.

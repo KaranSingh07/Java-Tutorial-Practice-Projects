@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6fb3924-d023-4db8-b11c-58a2da7aefea" name="Default Changelist" comment="">
+    <list default="true" id="0546bebd-5cd5-4e5b-be32-d13fc7546c98" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../Map Types/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Map Types/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Maps/.idea/misc.xml" afterDir="false" />
@@ -11,19 +11,32 @@
       <change afterPath="$PROJECT_DIR$/../Maps/out/production/Maps/Person.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Maps/out/production/Maps/UsingCustomObjects.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Maps/src/UsingCustomObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sets/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sets/Operations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sets/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Sets/UsingCustomObjects.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UsingCustomObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/Explanation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Natural Ordering/src/SortingCustomObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queues.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sets/out/production/Sets/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sets/out/production/Sets/Operations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sets/out/production/Sets/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sets/out/production/Sets/UsingCustomObjects.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sets/src/UsingCustomObjects.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting Lists/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting Lists/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting Lists/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting Lists/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sorting Lists/Sorting Lists.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting Lists/out/production/Sorting Lists/App.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Sorting Lists/src/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Map Types/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Java Collections Framework Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting Lists/Sorting Lists.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Java Collections Framework Projects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Natural Ordering/Natural Ordering.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Map Types/.idea/vcs.xml" afterDir="false" />
@@ -31,7 +44,7 @@
       <change beforePath="$PROJECT_DIR$/../HashMaps/out/production/HashMaps/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Maps/out/production/Maps/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HashMaps/out/production/SortedMaps/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Map Types/out/production/Map Types/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HashMaps/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Maps/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sets/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sets/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SortedMaps/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../SortedMaps/SortedMaps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Map Types/Map Types.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SortedMaps/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Map Types/src/App.java" afterDir="false" />
@@ -41,11 +54,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1uq5g5xyxclT6h5D9uZNnPKfyBc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1uu2ErY1zXXyJPvYHDyAM2RleiW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="flattenPackages" value="true" />
@@ -54,36 +76,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Maps" />
     <property name="settings.editor.selected.configurable" value="MTHome" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="UsingCustomObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UsingCustomObjects" />
-      <module name="Sets" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="Queues" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UsingCustomObjects" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b6fb3924-d023-4db8-b11c-58a2da7aefea" name="Default Changelist" comment="" />
-      <created>1625380387459</created>
+      <changelist id="0546bebd-5cd5-4e5b-be32-d13fc7546c98" name="Default Changelist" comment="" />
+      <created>1625501045819</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1625380387459</updated>
+      <updated>1625501045819</updated>
     </task>
     <servers />
   </component>
@@ -97,6 +113,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
